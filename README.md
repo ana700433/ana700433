@@ -8,7 +8,7 @@ I love solving business problems in marketing, compliance, and operations.
 
 ---
 
-### 🧠 Featured Analytics Projects  
+### Featured Analytics Projects  
 | Project | Tools | Description |
 |----------|-------|-------------|
 | [GA4 Drop-Off Analysis](#) | Power BI, GA4 | Funnel visualization identifying key user drop-off points |
@@ -17,5 +17,5 @@ I love solving business problems in marketing, compliance, and operations.
 
 ---
 
-📫 **Connect with me:**  
+**Connect with me:**  
 [LinkedIn](https://www.linkedin.com/in/akumari4/) | [Email](mailto:akumari4@hawk.illinoistech.edu)
