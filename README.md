@@ -1,18 +1,21 @@
-# Hi, I'm Anamika 👋
+# Hi, I’m Anamika Kumari  
 
-🎓 MS in Marketing Analytics | 💼 Aspiring Business Analyst | 📊 Data-Driven Storyteller
+ **Business & Marketing Analytics Professional**  
+ Based in Chicago, IL | 🎓 MS in Marketing Analytics @ Illinois Tech (May 2025)
 
-Welcome to my GitHub! I specialize in turning raw data into actionable insights. I build analytical projects that focus on healthcare, marketing, compliance, and real-world decision-making.
+I specialize in turning data into decisions — through SQL, Power BI, Excel, and CRM analytics.  
+I love solving business problems in marketing, compliance, and operations.
 
-## 🔍 Featured Project
-**[Healthcare Marketing Payments Analysis](https://github.com/ana700433/healthcare-marketing-payments)**  
-Analyzed CMS Open Payments data (2018–2024) to uncover trends in pharmaceutical marketing spend across U.S. states using R.
+---
 
-## 💡 Skills & Tools
-- **Languages:** R, Python, SQL
-- **Libraries/Tools:** tidyverse, ggplot2, dplyr, pandas, seaborn, Tableau
-- **Domains:** Healthcare Analytics, Marketing Insights, Compliance, Geospatial Data
+### 🧠 Featured Analytics Projects  
+| Project | Tools | Description |
+|----------|-------|-------------|
+| [GA4 Drop-Off Analysis](#) | Power BI, GA4 | Funnel visualization identifying key user drop-off points |
+| [Healthcare Gap Mapping](#) | Python, Power BI | Mapping mental-health provider shortages across rural regions |
+| [Mimic Pro Marketing Simulation](#) | Excel, BI | A/B testing and campaign optimization that boosted CTR by 35% |
 
-## 📫 Let's Connect
-- [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-ID)
-- Email: akumari4@hawk.illinoistech.edu
+---
+
+📫 **Connect with me:**  
+[LinkedIn](https://www.linkedin.com/in/akumari4/) | [Email](mailto:akumari4@hawk.illinoistech.edu)
