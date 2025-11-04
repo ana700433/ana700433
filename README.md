@@ -1,7 +1,7 @@
 # Hi, I’m Anamika Kumari  
 
  **Business & Marketing Analytics Professional**  
- Based in Chicago, IL | 🎓 MS in Marketing Analytics @ Illinois Tech (May 2025)
+ Based in Chicago, IL | MS in Marketing Analytics @ Illinois Tech (May 2025)
 
 I specialize in turning data into decisions — through SQL, Power BI, Excel, and CRM analytics.  
 I love solving business problems in marketing, compliance, and operations.
