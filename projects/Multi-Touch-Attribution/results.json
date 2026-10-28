@@ -1,0 +1,73 @@
+{
+  "cleaning": {
+    "raw_rows": 174475,
+    "bot_rows_removed": 2487,
+    "duplicate_clicks_removed": 3946,
+    "touches_outside_30_days_removed": 1341
+  },
+  "journeys": {
+    "users": 59100,
+    "conversions": 5746,
+    "conversion_rate": 0.0972,
+    "median_touches_before_purchase": 2.0,
+    "share_multi_touch": 0.791
+  },
+  "credit_share": {
+    "Last touch": {
+      "Display": 0.017,
+      "Paid Social": 0.035,
+      "Video": 0.017,
+      "Email": 0.111,
+      "Paid Search": 0.414,
+      "Direct": 0.407
+    },
+    "First touch": {
+      "Display": 0.235,
+      "Paid Social": 0.29,
+      "Video": 0.129,
+      "Email": 0.095,
+      "Paid Search": 0.191,
+      "Direct": 0.06
+    },
+    "Linear": {
+      "Display": 0.117,
+      "Paid Social": 0.162,
+      "Video": 0.075,
+      "Email": 0.125,
+      "Paid Search": 0.317,
+      "Direct": 0.205
+    },
+    "Time decay": {
+      "Display": 0.097,
+      "Paid Social": 0.137,
+      "Video": 0.065,
+      "Email": 0.127,
+      "Paid Search": 0.336,
+      "Direct": 0.239
+    },
+    "Position based": {
+      "Display": 0.122,
+      "Paid Social": 0.162,
+      "Video": 0.073,
+      "Email": 0.112,
+      "Paid Search": 0.309,
+      "Direct": 0.221
+    },
+    "Markov chain": {
+      "Display": 0.131,
+      "Paid Social": 0.168,
+      "Video": 0.09,
+      "Email": 0.133,
+      "Paid Search": 0.274,
+      "Direct": 0.204
+    }
+  },
+  "markov_removal_effect": {
+    "Display": 0.305,
+    "Paid Social": 0.39,
+    "Video": 0.209,
+    "Email": 0.31,
+    "Paid Search": 0.636,
+    "Direct": 0.475
+  }
+}

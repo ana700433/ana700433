@@ -1,0 +1,73 @@
+{
+  "data_cleaning": {
+    "duplicate_weeks_removed": 2,
+    "missing_email_spend_filled": 3,
+    "negative_spend_rows_fixed": 1
+  },
+  "fit": {
+    "train_r2": 0.925,
+    "holdout_mape": 0.023,
+    "holdout_weeks": 16
+  },
+  "channels": {
+    "Paid Search": {
+      "spend": 2006961,
+      "attributed_revenue": 5615234,
+      "roi": 2.8,
+      "marginal_roi": 1.74,
+      "true_roi": 3.65,
+      "carryover": 0.28
+    },
+    "Paid Social": {
+      "spend": 1713921,
+      "attributed_revenue": 3182976,
+      "roi": 1.86,
+      "marginal_roi": 1.79,
+      "true_roi": 3.41,
+      "carryover": 0.43
+    },
+    "TV": {
+      "spend": 1739400,
+      "attributed_revenue": 6832645,
+      "roi": 3.93,
+      "marginal_roi": 2.78,
+      "true_roi": 4.1,
+      "carryover": 0.72
+    },
+    "Email": {
+      "spend": 170280,
+      "attributed_revenue": 1309195,
+      "roi": 7.69,
+      "marginal_roi": 4.15,
+      "true_roi": 7.47,
+      "carryover": 0.19
+    },
+    "Affiliate": {
+      "spend": 411603,
+      "attributed_revenue": 1080533,
+      "roi": 2.63,
+      "marginal_roi": 1.3,
+      "true_roi": 2.89,
+      "carryover": 0.16
+    }
+  },
+  "budget": {
+    "annual_budget": 2014055,
+    "current_mix": {
+      "Paid Search": 668987,
+      "Paid Social": 571307,
+      "TV": 579800,
+      "Email": 56760,
+      "Affiliate": 137201
+    },
+    "optimized_mix": {
+      "Paid Search": 585207,
+      "Paid Social": 400015,
+      "TV": 820496,
+      "Email": 85140,
+      "Affiliate": 123197
+    },
+    "annual_revenue_lift": 200326,
+    "media_revenue_lift_pct": 0.031
+  }
+}

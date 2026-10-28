@@ -1,0 +1,78 @@
+{
+  "cleaning": {
+    "duplicate_orders_removed": 500,
+    "rows_missing_customer_id_removed": 321,
+    "test_orders_removed": 59,
+    "returns_netted_against_orders": 1535,
+    "clean_orders": 37045
+  },
+  "customers_scored": 4681,
+  "segments": {
+    "Champions": {
+      "customers": 1142,
+      "share_customers": 0.244,
+      "share_of_predicted_value": 0.519,
+      "avg_clv_12m": 477.94,
+      "avg_orders_year1": 6.8,
+      "avg_days_since_order": 23,
+      "action": "Early access and referral asks. No discounts needed."
+    },
+    "New and promising": {
+      "customers": 444,
+      "share_customers": 0.095,
+      "share_of_predicted_value": 0.106,
+      "avg_clv_12m": 251.21,
+      "avg_orders_year1": 1.0,
+      "avg_days_since_order": 28,
+      "action": "Second-order nudge within 30 days of first purchase."
+    },
+    "Loyal": {
+      "customers": 867,
+      "share_customers": 0.185,
+      "share_of_predicted_value": 0.154,
+      "avg_clv_12m": 186.22,
+      "avg_orders_year1": 2.9,
+      "avg_days_since_order": 71,
+      "action": "Cross-sell and a loyalty tier to move them up."
+    },
+    "Needs attention": {
+      "customers": 362,
+      "share_customers": 0.077,
+      "share_of_predicted_value": 0.054,
+      "avg_clv_12m": 157.4,
+      "avg_orders_year1": 1.0,
+      "avg_days_since_order": 96,
+      "action": "Reminder content and bestsellers, light incentive."
+    },
+    "Hibernating": {
+      "customers": 1067,
+      "share_customers": 0.228,
+      "share_of_predicted_value": 0.104,
+      "avg_clv_12m": 102.3,
+      "avg_orders_year1": 1.0,
+      "avg_days_since_order": 247,
+      "action": "Low-cost reactivation only. Suppress from paid media."
+    },
+    "At risk": {
+      "customers": 799,
+      "share_customers": 0.171,
+      "share_of_predicted_value": 0.063,
+      "avg_clv_12m": 82.64,
+      "avg_orders_year1": 2.4,
+      "avg_days_since_order": 220,
+      "action": "Win-back series now, with a personal offer."
+    }
+  },
+  "validation": {
+    "clv_vs_actual_correlation": 0.63,
+    "top20pct_by_clv_spend_vs_average": 3.33,
+    "predicted_total": 1050960,
+    "actual_total": 950372
+  },
+  "retention": {
+    "month1": 0.264,
+    "month3": 0.232,
+    "month6": 0.183,
+    "month12": 0.124
+  }
+}

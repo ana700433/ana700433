@@ -1,0 +1,95 @@
+{
+  "plan": {
+    "baseline_conversion": 0.032,
+    "min_detectable_lift": 0.1,
+    "alpha": 0.05,
+    "power": 0.8,
+    "recipients_needed_per_arm": 49777
+  },
+  "data_checks": {
+    "raw_rows": 105354,
+    "scanner_rows_removed": 1100,
+    "duplicate_sends_removed": 700,
+    "recipients_A": 51892,
+    "recipients_B": 51662,
+    "sample_ratio_p_value": 0.475,
+    "sample_ratio_ok": true,
+    "needed_per_arm": 49777
+  },
+  "overall": {
+    "cr_A": 0.0327,
+    "cr_B": 0.0361,
+    "relative_lift": 0.105,
+    "abs_diff_ci95": [
+      0.0012,
+      0.0057
+    ],
+    "p_value": 0.0024,
+    "prob_B_better": 0.999,
+    "expected_loss_if_ship_B": 0.0,
+    "revenue_per_recipient_A": 2.73,
+    "revenue_per_recipient_B": 2.838,
+    "rpr_diff_ci95": [
+      -0.095,
+      0.318
+    ]
+  },
+  "segments": [
+    {
+      "segment": "New",
+      "cr_A": 0.0205,
+      "cr_B": 0.027,
+      "rel_lift": 0.3164,
+      "p_value": 0.0,
+      "lo": 0.182,
+      "hi": 0.4509,
+      "holm_threshold": 0.0167,
+      "significant_after_correction": true
+    },
+    {
+      "segment": "Returning",
+      "cr_A": 0.0369,
+      "cr_B": 0.0381,
+      "rel_lift": 0.0316,
+      "p_value": 0.5089,
+      "lo": -0.0621,
+      "hi": 0.1253,
+      "holm_threshold": 0.025,
+      "significant_after_correction": false
+    },
+    {
+      "segment": "VIP",
+      "cr_A": 0.0686,
+      "cr_B": 0.0691,
+      "rel_lift": 0.0066,
+      "p_value": 0.9279,
+      "lo": -0.1355,
+      "hi": 0.1486,
+      "holm_threshold": 0.05,
+      "significant_after_correction": false
+    }
+  ],
+  "decision": {
+    "annual_sends_assumed": 9600000,
+    "ship_to_everyone": {
+      "expected_annual_revenue_impact": 1033479,
+      "impact_range_95": [
+        -915264,
+        3050957
+      ]
+    },
+    "ship_to_new_customers_only": {
+      "rpr_diff": 0.408,
+      "rpr_diff_ci95": [
+        0.143,
+        0.672
+      ],
+      "expected_annual_revenue_impact": 1772006,
+      "impact_range_95": [
+        622992,
+        2918744
+      ]
+    },
+    "recommendation": "Roll out version B to new customers only. Keep version A for returning and VIP customers, where the free-shipping cost buys no extra orders."
+  }
+}
