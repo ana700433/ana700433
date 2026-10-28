@@ -1,0 +1,9 @@
+criterion,what_to_check,weight,score_1_to_5,weighted_score,notes
+Team,Founder experience and fit for this problem,0.25,,,
+Market size,Realistic serviceable market and growth,0.20,,,
+Problem and solution,How painful the problem is and how well the product solves it,0.15,,,
+Traction,Users revenue pilots or other proof of demand,0.15,,,
+Competition,Alternatives and what makes this one different,0.10,,,
+Business model,How it makes money and unit economics,0.10,,,
+Risks,Key risks and how founders plan to handle them,0.05,,,
+TOTAL,,1.00,,,
